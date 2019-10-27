@@ -23,7 +23,10 @@ int main()
    std::cout << std::endl;
 
    testFan1.updateTeam("team2", 0);
-   testFan2.updateTeam("team2", 1);
+   testFan2.updateTeam("team1", 1);
+
+   favTeam1 = testFan1.getFavoriteTeam();
+   favTeam2 = testFan2.getFavoriteTeam();
 
    std::cout << "favTeam1: " << favTeam1 << std::endl;
    std::cout << "favTeam2: " << favTeam2 << std::endl;
